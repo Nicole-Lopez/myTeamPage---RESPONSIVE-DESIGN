@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif&family=Poppins&display=swap');
+
+body{
+	background-color: #FAFAFA;
+	color: #000;
+	/*overflow-x: hidden;*/
+}
+
+	header{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-top: 90px;
+	}
+		header h1{
+			margin-right: 300px;
+			font: normal 700 36px 'PT Serif';
+			letter-spacing: -0.045em;
+		}
+			.aboutUs h3{
+				font: normal 600 18px 'Poppins';
+				margin-bottom: 10px;
+			}
+			.aboutUs p{
+				font: normal 400 18px 'Poppins';
+				max-width: 400px;
+			}
+
+
+
+	main {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		max-width: 1300px;
+		margin: auto;
+	}
+		figure{
+			margin: 70px 40px;
+		}
+
+		.person2, .person5 {
+			margin-top: 150px;
+		}
+			img {
+				width: 238px;
+			}
+			.position { 
+				display: inline-block;
+			  	vertical-align: top;
+				writing-mode: vertical-lr;
+
+				font: normal 400 12px 'PT Serif';
+				margin-left: 10px;
+			}
+			.name {
+				margin-top: 15px;
+				font: normal 600 18px 'Poppins';
+			}
+
+	footer{
+		margin: 24px 0;
+	}
+		footer p {
+		    font: normal 500 14px 'Montserrat';
+		    line-height: 17px;
+		    color: #BDBDBD;
+		    text-align: center;
+		}
+		footer a {
+		    color: #000;
+		    font-weight: bold;
+		}
+
+
+
+@media screen and (max-width: 1070px){
+	header {
+		flex-direction: column;
+		margin-left: 5%;
+	}
+		header h1 {
+			margin-bottom: 25px;
+			width: 100%;
+		}
+
+	main{
+		padding-top: 50px;
+		justify-content: center;
+		margin: auto;
+		max-width: 1000px;
+	}
+		.person1, .person3, .person5 {
+			margin-top: 10px;
+		}
+
+		.person2{
+			margin-top:70px; 
+		}	
+}
